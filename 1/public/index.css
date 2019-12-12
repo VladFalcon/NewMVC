@@ -1,0 +1,46 @@
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span.completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+}
+
+.todo i {
+    z-index: 2;
+}
+
+body{
+    background-color: olive;
+    /*background: url(https://h7f7z2r7.stackpathcdn.com/sites/default/files/images/articles/blakcstonemain.jpg) no-repeat;*/
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+h2{
+    margin-top: 100px;
+    color: red;
+    text-align: center;
+
+  
+}
+.logo2{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.logo1{
+    margin-left: 10px;
+    margin-top: 15px;
+}

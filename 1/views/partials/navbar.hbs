@@ -1,0 +1,23 @@
+<nav class="blue darken-4">
+    <div class="nav-wrapper">
+        <a href="/" id="logo" class="brand-logo">Products</a>
+        <!--<a href="/" class="brand-logo logo2">Товары</a>-->
+        <button class="logo2" onclick="changeOnEng()">ENG</button>
+        <button class="logo1 " onclick="changeOnRus()">RUS</button>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            {{#if isIndex}}
+                <li id="productBtnActive" class="active"><a href="/">Products</a></li>
+            {{else}}
+                <li id="productBtnNonActive"><a href="/">Products</a></li>
+            {{/if}}
+
+            {{#if isCreate}}
+                <li  class="active"><a href="/create">Create</a></li>
+            {{else}}
+                <li id="createBtnActive"><a href="/create">Create</a></li>
+            {{/if}}
+
+        </ul>
+    </div>
+</nav>
